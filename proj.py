@@ -26,7 +26,7 @@ ex=Word('excited').synonyms()
 c,counth,counts,counta,countf,counte,countb,n=0,0,0,0,0,0,0,0
 
 print("Enter file name:")
-f=input()
+f="para.txt"
 try:
 	with open(f, 'r') as csvFile:
 		reader=csv.reader(csvFile)
